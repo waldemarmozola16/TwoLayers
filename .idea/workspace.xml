@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c39784b-8b80-48ae-b3df-f1d7a950bfae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailSentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizonalSliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/forgotpassword/ForgotPasswordTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/keys/KeysTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/slider/SliderTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DropdownPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HorizonalSliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,52 +202,52 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="476" y="50" key="#xdebugger.evaluate/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582575721181" />
-    <state width="1250" height="165" key="GridCell.Tab.0.bottom" timestamp="1582586897676">
+    <state width="1250" height="215" key="GridCell.Tab.0.bottom" timestamp="1582591070540">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="165" key="GridCell.Tab.0.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582586897676" />
+    <state width="1250" height="215" key="GridCell.Tab.0.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582591070540" />
     <state width="1250" height="165" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1582112822061" />
-    <state width="1250" height="165" key="GridCell.Tab.0.center" timestamp="1582586897675">
+    <state width="1250" height="215" key="GridCell.Tab.0.center" timestamp="1582591070540">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="165" key="GridCell.Tab.0.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582586897675" />
+    <state width="1250" height="215" key="GridCell.Tab.0.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582591070540" />
     <state width="1250" height="165" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1582112822059" />
-    <state width="1250" height="165" key="GridCell.Tab.0.left" timestamp="1582586897675">
+    <state width="1250" height="215" key="GridCell.Tab.0.left" timestamp="1582591070540">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="165" key="GridCell.Tab.0.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582586897675" />
+    <state width="1250" height="215" key="GridCell.Tab.0.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582591070540" />
     <state width="1250" height="165" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1582112822057" />
-    <state width="1250" height="165" key="GridCell.Tab.0.right" timestamp="1582586897675">
+    <state width="1250" height="215" key="GridCell.Tab.0.right" timestamp="1582591070540">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="165" key="GridCell.Tab.0.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582586897675" />
+    <state width="1250" height="215" key="GridCell.Tab.0.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582591070540" />
     <state width="1250" height="165" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1582112822060" />
-    <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1582585729030">
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1582591070541">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582585729030" />
-    <state width="1250" height="215" key="GridCell.Tab.1.center" timestamp="1582585729030">
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582591070541" />
+    <state width="1250" height="215" key="GridCell.Tab.1.center" timestamp="1582591070540">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582585729030" />
-    <state width="1250" height="215" key="GridCell.Tab.1.left" timestamp="1582585729030">
+    <state width="1250" height="215" key="GridCell.Tab.1.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582591070540" />
+    <state width="1250" height="215" key="GridCell.Tab.1.left" timestamp="1582591070540">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582585729030" />
-    <state width="1250" height="215" key="GridCell.Tab.1.right" timestamp="1582585729030">
+    <state width="1250" height="215" key="GridCell.Tab.1.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582591070540" />
+    <state width="1250" height="215" key="GridCell.Tab.1.right" timestamp="1582591070541">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582585729030" />
+    <state width="1250" height="215" key="GridCell.Tab.1.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582591070541" />
     <state x="201" y="27" width="900" height="741" key="SettingsEditor" timestamp="1582404628319">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="93" y="27" width="900" height="741" key="SettingsEditor/70.27.1296.741/1366.0.1024.768@1366.0.1024.768" timestamp="1582196764001" />
     <state x="201" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582404628319" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582556495626">
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582620800993">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="1606" y="205" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@1366.0.1024.768" timestamp="1582196767405" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582556495626" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582620800993" />
     <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1582112681976" />
     <state x="497" y="87" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581675400892">
       <screen x="70" y="27" width="1296" height="741" />

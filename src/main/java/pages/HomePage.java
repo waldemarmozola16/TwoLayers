@@ -43,8 +43,8 @@ public class HomePage {
         return new ForgotPasswordPage(driver);
     }
 
-    public HorizonalSliderPage clickHorizonalSlider(){
+    public HorizontalSliderPage clickHorizonalSlider(){
         clickLink("Horizontal Slider");
-        return new HorizonalSliderPage(driver);
+        return new HorizontalSliderPage(driver);
     }
 }
