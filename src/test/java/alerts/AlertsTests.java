@@ -8,14 +8,15 @@ import static org.testng.Assert.*;
 public class AlertsTests extends BaseTests {
 
     @Test
-    public void testAcceptAlerts(){
+    public void testAcceptAlerts() {
         var alertsPage = homePage.clickJavaScritsAlerts();
         alertsPage.triggerAlert();
         alertsPage.alert_clickToAccept();
         assertEquals(alertsPage.getResult(), "You successfuly clicked an alert", "Result text is incorrect");
     }
+
     @Test
-    public void testGetTextFromAlerts(){
+    public void testGetTextFromAlerts() {
         var alertsPage = homePage.clickJavaScritsAlerts();
         alertsPage.triggerConfirm();
         String text = alertsPage.alert_getText();
@@ -24,4 +25,13 @@ public class AlertsTests extends BaseTests {
         assertEquals(alertsPage.getResult(), "You clicked: Cancel", "Result text is incorrect");
     }
 
+    @Test
+    public void testSetInputInAlerts() {
+        var alertsPage = homePage.clickJavaScritsAlerts();
+        alertsPage.triggerPrompt();
+        String text = "TAU rocks!";
+        alertsPage.alert_setInput(text);
+        alertsPage.alert_clickToAccept();
+        assertEquals(alertsPage.getResult(), "You entered: " + text, "Result text incorrect");
+    }
 }
