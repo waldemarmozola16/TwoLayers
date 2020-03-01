@@ -35,6 +35,11 @@ public class HomePage {
 
     }
 
+    public AlertsPage clickJavaScritsAlerts(){
+        clickLink("JavaScript Alerts");
+        return new AlertsPage(driver);
+    }
+
     /*=======================================================
     METHODS FOR INDIVIDUAL EXCESISES
      =======================================================*/
