@@ -44,6 +44,11 @@ public class HomePage {
         clickLink("File Upload");
         return new FileUploadPage(driver);
     }
+    public WyswygEditorPage clickWyswygEditor(){
+        clickLink("WYSIWYG Editor");
+        return new WyswygEditorPage(driver);
+    }
+
 
     /*=======================================================
     METHODS FOR INDIVIDUAL EXCESISES
@@ -56,5 +61,10 @@ public class HomePage {
     public HorizontalSliderPage clickHorizonalSlider(){
         clickLink("Horizontal Slider");
         return new HorizontalSliderPage(driver);
+    }
+
+    public ContextMenuPage clickContextMenu(){
+        clickLink("Context Menu");
+        return  new ContextMenuPage(driver);
     }
 }
