@@ -67,4 +67,9 @@ public class HomePage {
         clickLink("Context Menu");
         return  new ContextMenuPage(driver);
     }
+
+    public FramesPage clickFramesPage(){
+        clickLink("Frames");
+        return new FramesPage(driver);
+    }
 }
