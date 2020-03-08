@@ -49,6 +49,11 @@ public class HomePage {
         return new WyswygEditorPage(driver);
     }
 
+    public DynamicLoadingPage clickDynamicLoading(){
+        clickLink("Dynamic Loading");
+        return new DynamicLoadingPage(driver);
+    }
+
 
     /*=======================================================
     METHODS FOR INDIVIDUAL EXCESISES

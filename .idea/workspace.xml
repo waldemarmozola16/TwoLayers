@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c39784b-8b80-48ae-b3df-f1d7a950bfae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NestedFramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/frames/FrameTests1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample1Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wait/waitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,69 +54,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pages" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pages" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FrameTests1.testFrameText">
-    <configuration name="AlertsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContextMenuTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.ContextMenuTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.FileUploadTests" />
-      <option name="METHOD_NAME" value="testFileUpload" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.waitTests">
     <configuration name="FrameTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
@@ -126,6 +75,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="frames" />
       <option name="MAIN_CLASS_NAME" value="frames.FrameTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameTests1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frames" />
+      <option name="MAIN_CLASS_NAME" value="frames.FrameTests1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -151,13 +117,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="waitTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wait" />
+      <option name="MAIN_CLASS_NAME" value="wait.waitTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="waitTests.setwaitTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wait" />
+      <option name="MAIN_CLASS_NAME" value="wait.waitTests" />
+      <option name="METHOD_NAME" value="setwaitTests" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.waitTests" />
+        <item itemvalue="TestNG.waitTests.setwaitTests" />
+        <item itemvalue="TestNG.FrameTests1" />
         <item itemvalue="TestNG.FrameTests1.testFrameText" />
         <item itemvalue="TestNG.FrameTests" />
-        <item itemvalue="TestNG.ContextMenuTests" />
-        <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
-        <item itemvalue="TestNG.AlertsTests" />
       </list>
     </recent_temporary>
   </component>
@@ -187,10 +188,10 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="282" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1581724589426" />
-    <state x="170" y="127" width="1096" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583153163850">
+    <state x="170" y="127" width="1096" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583678291797">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="170" y="127" width="1096" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583153163850" />
+    <state x="170" y="127" width="1096" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583678291797" />
     <state x="526" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1582485292363">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -207,25 +208,25 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="462" y="141" width="502" height="520" key="FileChooserDialogImpl/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582909286174" />
-    <state width="1250" height="165" key="GridCell.Tab.0.bottom" timestamp="1583186443186">
+    <state width="1250" height="165" key="GridCell.Tab.0.bottom" timestamp="1583681645891">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="165" key="GridCell.Tab.0.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583186443186" />
+    <state width="1250" height="165" key="GridCell.Tab.0.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583681645891" />
     <state width="1250" height="165" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1582112822061" />
-    <state width="1250" height="165" key="GridCell.Tab.0.center" timestamp="1583186443178">
+    <state width="1250" height="165" key="GridCell.Tab.0.center" timestamp="1583681645891">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="165" key="GridCell.Tab.0.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583186443178" />
+    <state width="1250" height="165" key="GridCell.Tab.0.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583681645891" />
     <state width="1250" height="165" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1582112822059" />
-    <state width="1250" height="165" key="GridCell.Tab.0.left" timestamp="1583186443151">
+    <state width="1250" height="165" key="GridCell.Tab.0.left" timestamp="1583681645891">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="165" key="GridCell.Tab.0.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583186443133" />
+    <state width="1250" height="165" key="GridCell.Tab.0.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583681645891" />
     <state width="1250" height="165" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1582112822057" />
-    <state width="1250" height="165" key="GridCell.Tab.0.right" timestamp="1583186443185">
+    <state width="1250" height="165" key="GridCell.Tab.0.right" timestamp="1583681645891">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="165" key="GridCell.Tab.0.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583186443185" />
+    <state width="1250" height="165" key="GridCell.Tab.0.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583681645891" />
     <state width="1250" height="165" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1582112822060" />
     <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1583150540679">
       <screen x="70" y="27" width="1296" height="741" />
@@ -252,11 +253,11 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state width="498" height="446" key="SwitcherDM/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582906638203" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583322394293">
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583662448547">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="1606" y="205" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@1366.0.1024.768" timestamp="1582196767405" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583322394293" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1583662448547" />
     <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1582112681976" />
     <state x="497" y="87" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581675400892">
       <screen x="70" y="27" width="1296" height="741" />
