@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class waitTests extends BaseTests {
+public class WaitTests extends BaseTests {
 
     @Test
     public void setUpWaitTests() {
