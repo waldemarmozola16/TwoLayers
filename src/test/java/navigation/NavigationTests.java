@@ -3,6 +3,8 @@ package navigation;
 import base.BaseTests;
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertTrue;
+
 public class NavigationTests extends BaseTests {
 
     @Test
@@ -12,5 +14,18 @@ public class NavigationTests extends BaseTests {
         getWindowManager().refreshPage();
         getWindowManager().goForward();
         getWindowManager().goTo("https://google.com");
+    }
+
+    @Test
+    public void testSwitchTab(){
+        homePage.clickMultipleWindows().clickHere();
+        getWindowManager().switchToTab("New Window");
+    }
+
+    @Test
+    public void testWindowTabs(){
+        var buttonPage = homePage.clickDynamicLoading().rightClickOnExample2Link();
+        getWindowManager().switchToNewTab();
+        assertTrue(buttonPage.isStartButtonDisplayed(), "Button is not displayed" );
     }
 }

@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c39784b-8b80-48ae-b3df-f1d7a950bfae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/screenshots/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MultipleWindowsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/javascript/JavaScriptTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/javascript/JavaScriptTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/javascript/JavaScriptTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/javascript/JavaScriptTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/WindowManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/WindowManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/navigation/NavigationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/navigation/NavigationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +40,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1XXNfS6zbhSjafDVyJMousfJ06U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -55,82 +64,46 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pages" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pages" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NavigationTests.testNavigator">
-    <configuration name="JavaScriptTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.KeysTests.testBackspace">
+    <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javascript.*" />
+          <option name="PATTERN" value="keys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javascript" />
-      <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
+      <option name="PACKAGE_NAME" value="keys" />
+      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
+      <option name="METHOD_NAME" value="testBackspace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScriptTests.testAddMultipleAttributeToDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javascript.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javascript" />
-      <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
-      <option name="METHOD_NAME" value="testAddMultipleAttributeToDropdown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScriptTests.testScrollToFifthParagraph" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javascript.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javascript" />
-      <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
-      <option name="METHOD_NAME" value="testScrollToFifthParagraph" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScriptTests.testScrollToTable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javascript.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javascript" />
-      <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
-      <option name="METHOD_NAME" value="testScrollToTable" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,13 +128,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NavigationTests.testSwitchTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+      <option name="METHOD_NAME" value="testSwitchTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTests.testWindowTabs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+      <option name="METHOD_NAME" value="testWindowTabs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeysTests.testBackspace" />
+        <item itemvalue="TestNG.NavigationTests.testWindowTabs" />
+        <item itemvalue="TestNG.NavigationTests.testSwitchTab" />
         <item itemvalue="TestNG.NavigationTests.testNavigator" />
-        <item itemvalue="TestNG.JavaScriptTests.testAddMultipleAttributeToDropdown" />
-        <item itemvalue="TestNG.JavaScriptTests.testScrollToFifthParagraph" />
-        <item itemvalue="TestNG.JavaScriptTests" />
-        <item itemvalue="TestNG.JavaScriptTests.testScrollToTable" />
+        <item itemvalue="TestNG.NavigationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -178,11 +187,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="313" y="59" width="800" height="684" key="#Project_Structure" timestamp="1582289896238">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="313" y="59" width="800" height="684" key="#Project_Structure/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582289896238" />
+    <state x="308" y="62" width="800" height="684" key="#Updates" timestamp="1585125059787">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="308" y="62" width="800" height="684" key="#Updates/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585125059787" />
     <state x="451" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582319875398">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -199,54 +215,54 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="526" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582485292363" />
-    <state x="401" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581453092783">
+    <state x="401" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585124899469">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="401" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1581453092783" />
+    <state x="401" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585124899469" />
     <state x="476" y="50" key="#xdebugger.evaluate" timestamp="1582575721181">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="476" y="50" key="#xdebugger.evaluate/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582575721181" />
-    <state x="462" y="141" width="502" height="520" key="FileChooserDialogImpl" timestamp="1582909286174">
+    <state x="462" y="141" width="502" height="520" key="FileChooserDialogImpl" timestamp="1585163428679">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="462" y="141" width="502" height="520" key="FileChooserDialogImpl/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582909286174" />
-    <state width="1250" height="215" key="GridCell.Tab.0.bottom" timestamp="1585048155880">
+    <state x="462" y="141" width="502" height="520" key="FileChooserDialogImpl/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585163428679" />
+    <state width="1250" height="165" key="GridCell.Tab.0.bottom" timestamp="1585256935764">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.0.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585048155880" />
+    <state width="1250" height="165" key="GridCell.Tab.0.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585256935764" />
     <state width="1250" height="165" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1582112822061" />
-    <state width="1250" height="215" key="GridCell.Tab.0.center" timestamp="1585048155879">
+    <state width="1250" height="165" key="GridCell.Tab.0.center" timestamp="1585256935764">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.0.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585048155879" />
+    <state width="1250" height="165" key="GridCell.Tab.0.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585256935764" />
     <state width="1250" height="165" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1582112822059" />
-    <state width="1250" height="215" key="GridCell.Tab.0.left" timestamp="1585048155876">
+    <state width="1250" height="165" key="GridCell.Tab.0.left" timestamp="1585256935764">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.0.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585048155876" />
+    <state width="1250" height="165" key="GridCell.Tab.0.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585256935764" />
     <state width="1250" height="165" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1582112822057" />
-    <state width="1250" height="215" key="GridCell.Tab.0.right" timestamp="1585048155879">
+    <state width="1250" height="165" key="GridCell.Tab.0.right" timestamp="1585256935764">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.0.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585048155879" />
+    <state width="1250" height="165" key="GridCell.Tab.0.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585256935764" />
     <state width="1250" height="165" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1582112822060" />
-    <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1585048189273">
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1585178738660">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585048189273" />
-    <state width="1250" height="215" key="GridCell.Tab.1.center" timestamp="1585048189272">
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585178738660" />
+    <state width="1250" height="215" key="GridCell.Tab.1.center" timestamp="1585178738659">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585048189272" />
-    <state width="1250" height="215" key="GridCell.Tab.1.left" timestamp="1585048189271">
+    <state width="1250" height="215" key="GridCell.Tab.1.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585178738659" />
+    <state width="1250" height="215" key="GridCell.Tab.1.left" timestamp="1585178738659">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585048189271" />
-    <state width="1250" height="215" key="GridCell.Tab.1.right" timestamp="1585048189272">
+    <state width="1250" height="215" key="GridCell.Tab.1.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585178738659" />
+    <state width="1250" height="215" key="GridCell.Tab.1.right" timestamp="1585178738660">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585048189272" />
+    <state width="1250" height="215" key="GridCell.Tab.1.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585178738660" />
     <state x="201" y="27" width="900" height="741" key="SettingsEditor" timestamp="1582404628319">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -256,16 +272,20 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state width="498" height="446" key="SwitcherDM/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582906638203" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585037797472">
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585248251954">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="1606" y="205" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@1366.0.1024.768" timestamp="1584294679366" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585037797472" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585248251954" />
     <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1582112681976" />
     <state x="497" y="87" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581675400892">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="497" y="87" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1581675400892" />
+    <state x="486" y="317" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585175610147">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="486" y="317" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585175610147" />
     <state x="492" y="72" width="442" height="657" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581711809416">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -274,9 +294,9 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="273" y="85" width="880" height="631" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582575108093" />
-    <state x="381" y="89" width="670" height="676" key="search.everywhere.popup" timestamp="1582473490217">
+    <state x="381" y="89" width="670" height="676" key="search.everywhere.popup" timestamp="1585175838695">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="381" y="89" width="670" height="676" key="search.everywhere.popup/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1582473490217" />
+    <state x="381" y="89" width="670" height="676" key="search.everywhere.popup/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585175838695" />
   </component>
 </project>
