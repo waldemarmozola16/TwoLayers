@@ -5,6 +5,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -28,7 +29,7 @@ public class BaseTests {
     @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
-        driver = new EventFiringWebDriver(new ChromeDriver());
+        driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
         driver.register(new EventReporter());
         //driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
         goHome();
@@ -55,7 +56,7 @@ public class BaseTests {
             try {
                 Files.move(screenshot, new File("resources/screenshots/" + result.getName() + ".png"));
             } catch (IOException e) {
-                System.out.println("Can't found screenshot");
+                System.out.println(" I can't found screenshot");
             }
         }
 
@@ -64,7 +65,15 @@ public class BaseTests {
     public WindowManager getWindowManager() {
         return new WindowManager(driver);
         }
+
+    private ChromeOptions getChromeOptions(){
+        ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+        WebDriver driver = new ChromeDriver(options);
+        return options;
+    }
 }
+
 
 
 
