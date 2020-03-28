@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c39784b-8b80-48ae-b3df-f1d7a950bfae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CookieManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/testBackspace.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/screenshots/testBackspace.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationTests.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="navigation" />
       <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
-      <option name="METHOD_NAME" value="testNavigator" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -158,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.KeysTests.testBackspace" />
+        <item itemvalue="TestNG.NavigationTests" />
         <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
         <item itemvalue="TestNG.NavigationTests.testWindowTabs" />
         <item itemvalue="TestNG.NavigationTests.testSwitchTab" />
-        <item itemvalue="TestNG.NavigationTests.testNavigator" />
       </list>
     </recent_temporary>
   </component>
@@ -226,42 +228,42 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="462" y="141" width="502" height="520" key="FileChooserDialogImpl/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585163428679" />
-    <state width="1250" height="215" key="GridCell.Tab.0.bottom" timestamp="1585415660427">
+    <state width="1250" height="215" key="GridCell.Tab.0.bottom" timestamp="1585425714363">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.0.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585415660427" />
+    <state width="1250" height="215" key="GridCell.Tab.0.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585425714363" />
     <state width="1250" height="165" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1582112822061" />
-    <state width="1250" height="215" key="GridCell.Tab.0.center" timestamp="1585415660427">
+    <state width="1250" height="215" key="GridCell.Tab.0.center" timestamp="1585425714363">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.0.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585415660427" />
+    <state width="1250" height="215" key="GridCell.Tab.0.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585425714363" />
     <state width="1250" height="165" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1582112822059" />
-    <state width="1250" height="215" key="GridCell.Tab.0.left" timestamp="1585415660427">
+    <state width="1250" height="215" key="GridCell.Tab.0.left" timestamp="1585425714362">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.0.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585415660427" />
+    <state width="1250" height="215" key="GridCell.Tab.0.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585425714362" />
     <state width="1250" height="165" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1582112822057" />
-    <state width="1250" height="215" key="GridCell.Tab.0.right" timestamp="1585415660427">
+    <state width="1250" height="215" key="GridCell.Tab.0.right" timestamp="1585425714363">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.0.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585415660427" />
+    <state width="1250" height="215" key="GridCell.Tab.0.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585425714363" />
     <state width="1250" height="165" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1582112822060" />
-    <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1585415678839">
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1585425725020">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585415678839" />
-    <state width="1250" height="215" key="GridCell.Tab.1.center" timestamp="1585415678838">
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585425725020" />
+    <state width="1250" height="215" key="GridCell.Tab.1.center" timestamp="1585425725019">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585415678838" />
-    <state width="1250" height="215" key="GridCell.Tab.1.left" timestamp="1585415678838">
+    <state width="1250" height="215" key="GridCell.Tab.1.center/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585425725019" />
+    <state width="1250" height="215" key="GridCell.Tab.1.left" timestamp="1585425725019">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585415678838" />
-    <state width="1250" height="215" key="GridCell.Tab.1.right" timestamp="1585415678838">
+    <state width="1250" height="215" key="GridCell.Tab.1.left/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585425725019" />
+    <state width="1250" height="215" key="GridCell.Tab.1.right" timestamp="1585425725020">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="215" key="GridCell.Tab.1.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585415678838" />
+    <state width="1250" height="215" key="GridCell.Tab.1.right/70.27.1296.741/1366.0.1024.768@70.27.1296.741" timestamp="1585425725020" />
     <state x="201" y="27" width="900" height="741" key="SettingsEditor" timestamp="1582404628319">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -303,8 +305,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/base/BaseTests.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="2" />
+          <line>78</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
